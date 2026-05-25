@@ -1,0 +1,10 @@
+[project]
+name = "crate-cleaner"
+version = "0.1.0"
+description = "Cleans up your Spotify Crate Digger playlist"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["spotipy>=2.26.0"]
+
+[dependency-groups]
+dev = ["pytest>=9.0.3", "ruff>=0.15.14", "ty>=0.0.39"]
