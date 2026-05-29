@@ -104,7 +104,7 @@ Update these values for your machine:
 Install the LaunchAgent:
 
 ```bash
-cp com.user.cratecleaner.plist ~/Library/LaunchAgents/com.user.cratecleaner.plist
+ln -s com.user.cratecleaner.plist ~/Library/LaunchAgents/com.user.cratecleaner.plist
 ```
 
 and load the service:
