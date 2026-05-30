@@ -94,7 +94,7 @@ wheels = [
 ]
 
 [[package]]
-name = "discover-cleaner"
+name = "crate-cleaner"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
